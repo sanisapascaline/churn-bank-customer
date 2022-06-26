@@ -1,6 +1,6 @@
 # Prediksi Churn Nasabah di Bank Menggunakan Model Machine Learning: Artificial Neural Network
 ## Aplikasi ini dikerahkan ke streamlit.io, dan dapat ditemukan di [🔗LINK](https://share.streamlit.io/danielp56/deplot-model/main/project.py) ini
-====
+
 Churn merupakan kejadian dimana pelanggan/klien pergi meninggalkan/beralih dari bisnis yang kita miliki. sudah jelas bahwa churn rate sangat tidak menguntungkan bagi para pemilik bisnis. namun, churn rate dapat diprediksi menggunakan neural network sederhana dari machine learning. dengan prediksi yang dihasilkan, pemilik bisnis dapat mempersiapkan strategi bisnisnya sebelum para pelanggan/klien beralih ke bisnis lain.
 ====
 Dataset ini saya dapatkan dari kaggle dengan link sebagai berikut:[🔗LINK](https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers). Terdapat total 14 kolom pada dataset tersebut, yaitu: RowNumber, CustomerId, Surname, CreditScore, Geography, Gender, Age, Tenure, Balance, NumOfProducts, HasCrCard, IsActiveMember, EstimatedSalary, Exited. dari 14 parameter tersebut ada beberapa parameter yang tidak akan digunakan yaitu, RowNumber, CustomerId, Surname hal ini dikarenakan 3 parameter tersebut bersifat ‘unik’ dan tidak terdapat kesamaan/hubungan/pengaruh terhadap parameter yang lainnya.
